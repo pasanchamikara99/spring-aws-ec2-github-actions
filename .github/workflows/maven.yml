@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-artifact
-          path: target/*.war
+          path: target/*.jar
 
   docker:
 
